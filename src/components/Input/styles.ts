@@ -25,7 +25,6 @@ export const TextInput = styled.input`
   height: 48px;
   border-radius: 4px;
   border: none;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -33,7 +32,7 @@ export const TextInput = styled.input`
   line-height: 20px;
   color: #404149;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     max-width: 360px;
     justify-content: center;
     align-items: center;
@@ -54,7 +53,7 @@ export const InputSelect = styled.select`
   line-height: 20px;
   color: #404149;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     max-width: 360px;
     justify-content: center;
     align-items: center;
@@ -81,4 +80,9 @@ export const ErrorTitle = styled.span`
   line-height: 18px;
   margin-top: 20px;
   color: #d52b1e;
+  @media (max-width: 1023px) {
+    max-width: 360px;
+    justify-content: center;
+    align-items: center;
+  }
 `

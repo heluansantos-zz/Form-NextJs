@@ -12,7 +12,7 @@ export const Container = styled.div`
   align-self: center;
   flex-direction: row;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     padding-left: 20px;
     padding-right: 20px;
     min-height: 80px;
@@ -23,7 +23,7 @@ export const DivContainer = styled.div`
   min-width: 1100px;
   display: flex;
   align-items: center;
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     min-width: 100%;
   }
 `
@@ -32,14 +32,14 @@ export const ButtonBack = styled.button`
   margin-top: 30px;
   background: transparent;
   border: none;
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     margin-top: 0px;
   }
 `
 
 export const DivBackTitle = styled.div`
   margin-top: 30px;
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     margin-top: 0px;
   }
 `

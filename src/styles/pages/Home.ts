@@ -29,7 +29,7 @@ export const Title = styled.span`
   margin-top: 50px;
   color: #000000;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     align-self: start;
   }
 `
@@ -42,7 +42,7 @@ export const SubTitle = styled.span`
   line-height: 23px;
   color: #000000;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     align-self: start;
   }
 `
@@ -56,7 +56,7 @@ export const SubContainer = styled.div`
   align-items: start;
   min-width: 1120px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     min-width: 100%;
     margin-bottom: 154px;
     padding-left: 30px;
@@ -75,7 +75,7 @@ export const TitleCategory = styled.span`
   margin-top: 40px;
   color: #000000;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     align-self: start;
   }
 `
@@ -86,7 +86,7 @@ export const DivInputsDoc = styled.div`
   justify-content: space-between;
   width: 740px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -100,10 +100,19 @@ export const DivInputsContact = styled.div`
   justify-content: space-between;
   width: 1120px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+`
+
+export const DivInputsTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  @media (max-width: 1023px) {
+    width: 360px;
   }
 `

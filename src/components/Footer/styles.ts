@@ -25,7 +25,7 @@ export const Container = styled.div`
     align-items: center;
     color: #ffffff;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     padding-left: 30px;
     padding-right: 30px;
     justify-content: center;
@@ -38,7 +38,7 @@ export const DivContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     justify-content: center;
     min-width: 100%;
     max-width: 100%;
@@ -57,7 +57,7 @@ export const ButtonConfirm = styled.button`
     background: #505050;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     width: 360px;
   }
 `

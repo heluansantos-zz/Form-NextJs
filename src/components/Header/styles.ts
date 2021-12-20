@@ -25,7 +25,7 @@ export const Container = styled.div`
     margin: 5px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     padding-left: 20px;
     padding-right: 20px;
     height: 80px;
@@ -38,7 +38,7 @@ export const DivContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     min-width: 100%;
     min-width: 100%;
   }
@@ -49,7 +49,7 @@ export const DivLogo = styled.div`
   height: 76px;
   display: flex;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     max-width: 180px;
   }
 `
@@ -60,14 +60,14 @@ export const DivMenu = styled.div`
   display: flex;
   flex-direction: row;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     display: none;
   }
 `
 export const MenuMobile = styled.div`
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     display: flex;
     margin-top: 20px;
     justify-content: space-between;

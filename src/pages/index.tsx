@@ -8,7 +8,8 @@ import {
   SubContainer,
   TitleCategory,
   DivInputsDoc,
-  DivInputsContact
+  DivInputsContact,
+  DivInputsTitle
 } from '../styles/pages/Home'
 import Header from '../components/Header'
 import SubHeader from '../components/SubHeader'
@@ -25,15 +26,23 @@ const Home: React.FC = () => {
       <Header />
       <SubHeader />
       <SubContainer>
-        <Title>Dados pessoais</Title>
-        <SubTitle>Preencha os seus dados pessoais.</SubTitle>
-        <TitleCategory>Nome</TitleCategory>
+        <DivInputsTitle>
+          <Title>Dados pessoais</Title>
+
+          <SubTitle>Preencha os seus dados pessoais.</SubTitle>
+
+          <TitleCategory>Nome</TitleCategory>
+        </DivInputsTitle>
+
         <Input
           title="Preencha o seu nome completo"
           placeholder="Ex: José Peseiro"
           dimension={true}
         />
-        <TitleCategory>Documento de identificação</TitleCategory>
+        <DivInputsTitle>
+          <TitleCategory>Documento de identificação</TitleCategory>
+        </DivInputsTitle>
+
         <DivInputsDoc>
           <Input
             title="Escolha o seu documento de identificação:"
@@ -50,9 +59,11 @@ const Home: React.FC = () => {
           placeholder="Ex: 1234567"
           type="nif"
         />
+        <DivInputsTitle>
+          <Title>Contactos</Title>
+          <SubTitle>Indique os seus contactos</SubTitle>
+        </DivInputsTitle>
 
-        <Title>Contactos</Title>
-        <SubTitle>Indique os seus contactos</SubTitle>
         <DivInputsContact>
           <Input title="Telemóvel:" placeholder="Ex: 1234567" />
           <Input title="Telefone:" placeholder="Ex: 1234567" />
